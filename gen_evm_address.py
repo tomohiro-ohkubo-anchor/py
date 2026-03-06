@@ -1,9 +1,10 @@
 from __future__ import annotations
 
-import os
 import hashlib
-from ecdsa import SigningKey, SECP256k1
+import os
 from dataclasses import dataclass
+
+from ecdsa import SECP256k1, SigningKey
 
 
 @dataclass
